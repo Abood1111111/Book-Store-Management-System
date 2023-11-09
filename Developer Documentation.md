@@ -1,0 +1,4 @@
+Developer Documentation:
+ Usually created by developers with experience in the technical features and programming of the system. 
+The purpose of the documentation is to provide guidance and instructions on how to work with the system's code to other programmers.
+ Documentation can be better organized with the usage of wikis, and it is frequently found in the system design document.
