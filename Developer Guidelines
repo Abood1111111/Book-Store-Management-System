@@ -1,0 +1,74 @@
+⌨ Developer Guidelines
+
+- These guidelines provide useful advice for software developers involved in creating or contributing to the system. The recommendations cover various aspects, including documentation and coding style, codes of conduct, task completion, and developer-user interactions. For detailed information, please refer to the coding guidelines document.
+
+- These considerations aim to facilitate collaboration between the technical and executive teams, enabling effective decision-making and guiding the development process towards success.
+
+- If you occasionally write code outside of the BookWise system developers' team, it is recommended to read the entire document at least once, although there is no expectation to remember everything.
+
+- On the other hand, if you are a member of the BookWise system development team, it is essential to familiarize yourself with these guidelines.
+
+- Developers' Interaction
+All members must adhere to the community's guidelines and documentation. Developers should communicate with each other via email or MS Teams.
+
+- These guidelines are intended to streamline workflows, improve teamwork, and benefit both individual developers and the products they create.
+
+The Bookwise system developers are available to answer any questions regarding the content of this document.
+
+- It's important to remember that these guidelines aim to enhance the quality of our work, allowing us to take pride in our contributions. However, if you find that they are impeding progress, it is advisable to review and adapt them accordingly. They are not set in stone.
+
+- Code Format:
+- Each line should contain only one code command.
+- Code blocks should be separated from each other by a two-line margin.
+- Code Scope
+- Default constructors for classes should have only default constructor values.
+- Use the "final" keyword unless it is for constants.
+
+- Other Code-related Information:
+- Variable names should be meaningful and relevant to their use.
+- Each group/block of code should have a brief comment explaining its purpose.
+- Additional Considerations when Writing Code 
+- Developing Secure Software
+- While not always the most exciting part, considering the security risks associated with a software project is crucial. This helps avoid costly patches and reputation damage. Start security risk analysis early and continue throughout the project.
+
+Security risks vary depending on the project, but some general guidelines are:
+
+Educate yourself on security risks associated with project components.
+Avoid relying solely on out-of-the-box software and default configurations, as they may prioritize simplicity over security.
+Programming Language Choice
+There are no strict rules regarding the programming languages used for BookWise software. However, it's important to consider maintainability by yourself and future colleagues. Currently, we use HTML, CSS, and JavaScript, but we are open to changes that can improve our project.
+
+- Code Comments
+Code should be commented to explain the "why" behind its functionality. Ideally, the purpose of the code should be evident from the code itself. If the code is cryptic and cannot be easily simplified, explanations may be necessary. Clear comments help clarify the intent.
+
+- Readability
+Maintain consistent indentation.
+Use horizontal whitespace (code paragraphs/blocks) instead of compressing code into fewer lines.
+Avoid long lines exceeding 75-80 characters whenever possible.
+Using the Issue Tracker
+The issue tracker is the preferred channel for reporting bugs, requesting features, and submitting pull requests. When commenting on existing issues, use GitHub's "reactions" feature instead of posting a "+1" comment:
+
+👍 upvote
+👎 downvote
+
+- Feature Requests
+We welcome requests for new features. Please ensure that your ideas align with the project's scope and goals before submitting a feature request. Provide comprehensive information and context to make a compelling case to the project maintainers.
+
+-p Pull Requests
+Excellent contributions include well-crafted pull requests for patches, improvements, and new features. However, it is important to consider the scope of the request and avoid unrelated commits.
+Before embarking on significant pull requests, it's advisable to consult a maintainer to ensure the request aligns with the project's goals.
+When creating a pull request, include the intentions behind the proposed changes. By default, we request that you pull from the master branch.
+
+Bug Report
+Consider the following when reporting bugs:
+
+Title: Keep it brief and specific, clearly explaining the bug.
+Summary: If the title is insufficient, provide additional details about where, when, and how the bug occurred.
+Visual Evidence: Screenshots or videos can help developers understand the problem more quickly.
+Expected vs. Actual Result: Briefly describe the expected behavior and how it differs from the actual behavior.
+Reproducible Steps: Include the steps that trigger the bug.
+Environment: Provide relevant information such as the browser, operating system, screen size, and zoom level.
+Console Log: If applicable, include the console log to assist in debugging.
+Source URL: Link the bug or issue for faster identification by developers.
+Severity/Priority: Indicate the impact level on the product and the urgency for investigation.
+Reporter Name,These are some general developer guidelines for working on the BookWisesystem. These guidelines cover aspects such as code formatting, code scope, code comments, readability, using the issue tracker, feature requests.. Once you've gathered all of this information and you need more help, compile it into a report and email it to Bookwise12@gmail.com
